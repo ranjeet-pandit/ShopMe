@@ -1,0 +1,7 @@
+package com.cognizant.backend.repository;
+
+import com.cognizant.backend.model.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category , Long> {
+}
